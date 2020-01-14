@@ -1,0 +1,29 @@
+
+body{
+    /*background-image:url(Auditorium.jpg);*/
+    background-color: burlywood;
+    margin:0px;
+    border-color:cornsilk;
+    border-width:20px;
+    border-style:solid;
+    font-family:Arial;
+}
+
+h1{
+    padding-left:20px;
+}
+
+h2{
+    padding-left:20px;
+}
+
+img.main{
+    width:500px;
+    padding:20px;
+}
+img.map{
+    width:300px;
+    border-color:black;
+    border-width:20px;
+    border-style:solid;
+}
