@@ -1,3 +1,19 @@
 body{
     background:red;
 }
+
+
+h2{
+    padding-left:20px;
+}
+
+img.main{
+    width:500px;
+    padding:20px;
+}
+img.map{
+    width:300px;
+    border-color:black;
+    border-width:20px;
+    border-style:solid;
+}
