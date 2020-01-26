@@ -1,97 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Eats</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+      <!-- Google Fonts -->
+      <!-- Swap out "Roboto" for the font(s) you want to use -->
+      <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Inconsolata&display=swap" rel="stylesheet">
+      
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" crossorigin="anonymous">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      
+      <!-- Javascript -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+      <!-- Your own CSS -->
+      <link rel="stylesheet" href="styles.css">
+
+      <title>Eats</title>
 
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="navbar-brand">
-          <a href="#">
-            <img class="navlogo" src="logo.png">
-          </a>
-        </div>
+
+      <div class="navbar-brand">
+        <a href="index.html">
+          <img class="navlogo" src="logo.png">
+        </a>
+      </div>
+
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="restaurants.html">Eats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="milwaukee.html">Nightlife</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">History</a>
+          </li>
+        </ul>
+      </div>
       
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="restaurants.html">Eats</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="milwaukee.html">Nightlife</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="history.html">History</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+    </nav>
+
+
 
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">The Taste of Logan</h1>
-          <p class="lead">Logan is home to a vibrant restaurant scene.</p>
+          <img class="jumbotronimg" src="longmanfood.jpg">
+          <p class="lead">Longman & Eagle serves gastropub fare, whiskey, and everyday brunch. Don't miss the chicken and waffles.</p>
         </div>
       </div>
 
 
-    <table>
-        <tr>
-            <th>Restaurant</th>
-            <th>Style</th>
-            <th>Stars</th>
-        </tr>
-        <tr>
-            <td>Giant</td>
-            <td>New American</td>
-            <td>4.5</td>
-        </tr>
-        <tr>
-            <td>Longman & Eagle</td>
-            <td>Gastropub</td>
-            <td>4</td>
-        </tr>
-        <tr>
-            <td>Fat Rice</td>
-            <td>Chinese/Portuguese</td>
-            <td>4</td>
-        </tr>
-    </table>
+      <div class="container">
+        
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Discover some of Logan's best restaurants.</h1>
+            </div>
+        </div>
+        
+        
+        <div class="row">
+
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th></th>
+                <th>Cuisine</th>
+                <th>Open Since</th>
+                <th>Rating</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Lula Cafe</th>
+                <td>New American</td>
+                <td>1999</td>
+                <td>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </td>
+              </tr>
+              <tr>
+                <th>Giant</th>
+                <td>New American</td>
+                <td>2016</td>
+                <td>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </td>
+              </tr>
+              <tr>
+                <th>Dos Urban Cantina</th>
+                <td>Mexican</td>
+                <td>2015</td>
+                <td>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <th>Longman & Eagle</th>
+                <td>Gastropub</td>
+                <td>2010</td>
+                <td>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <th>Reno</th>
+                <td>Neapolitan Pizza</td>
+                <td>2012</td>
+                <td>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <th>Fat Rice</th>
+                <td>Portuguese/Chinese</td>
+                <td>2012</td>
+                <td>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <th>Mi Tocaya Antojeria</th>
+                <td>Mexican</td>
+                <td>2017</td>
+                <td>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </td>
+              </tr>
+              <tr>
+                <th>Boiler Room</th>
+                <td>East Coast Pizza</td>
+                <td>2010</td>
+                <td>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+
+        </div>
+        
+    </div>
+
+    <div class="container">
+      <img class="jumbotronimg" src="lulabrunch.jpg">
+      <p class="lead">Longman & Eagle serves gastropub fare, whiskey, and everyday brunch. Don't miss the chicken and waffles.</p>
+    </div>
 
 
 
 
-    <p>
-        <h4>
-            Navigation
-        </h4>
-    <ol>
-        <li>
-            <a href="index.html">Home Page</a>
-        </li>
-        <li>
-            <a href="history.html">History</a>
-        </li>
-        <li>
-            <a href="milwaukee.html">Milwaukee Avenue</a>
-        </li>
-        <li>
-            <a href="restaurants.html">Restaurants</a>
-        </li>
-    </ol>
-    </p>
+    <div class="container footer">
+      <div class="row">
+          
+          <div class="col-md-10">
+          </div>
+          
+          <div class="col-md-2">
+                <ul class="footer">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="restaurants.html">Eats</a></li>
+                  <li><a href="milwaukee.html">Nightlife</a></li>
+                  <li><a href="history.html">History</a></li>
+                </ul>
+          </div>
+
+      </div>
+      
+      <div class="row">
+        <p>Brought to you by the Logan Chamber of Commerce</p>
+      </div>
+
+    </div>
 
 </body>
 </html>
