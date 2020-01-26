@@ -1,5 +1,18 @@
+
+
+
 body{
-    background:red;
+    /*background-image:url(Auditorium.jpg);*/
+    /*background-color: burlywood;*/
+    margin:0px;
+    /*border-color:cornsilk;*/
+    border-width:0px;
+    /*border-style:solid;*/
+    /*font-family:Arial;*/
+}
+
+nav.navbarbg{
+    background-color:whitesmoke;
 }
 
 
@@ -16,4 +29,11 @@ img.map{
     border-color:black;
     border-width:20px;
     border-style:solid;
+}
+
+img.homegrid{
+    width:400px;
+    height:280px;
+    /* 400 / 280 */
+    
 }
